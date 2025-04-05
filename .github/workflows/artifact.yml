@@ -30,4 +30,4 @@ jobs:
         path: ./artifacts
       
     - name: check the content
-      run: ccat ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
